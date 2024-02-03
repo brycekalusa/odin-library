@@ -1,0 +1,30 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#add-btn {
+    width: 60%;
+    margin: auto;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+#library {
+    display: grid;
+    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+}
+
+.book-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+}
